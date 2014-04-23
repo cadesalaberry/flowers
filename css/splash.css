@@ -3,6 +3,10 @@
     font-family:"Great Vibes";
     src: url("../fonts/GreatVibes-Regular.otf");
 }
+@font-face {
+    font-family:"Comic Neue";
+    src: url("//cdn.jsdelivr.net/font-comicneue/1.1/ComicNeue-Bold-Oblique.ttf");
+}
 a {
     color: currentcolor;
 }
@@ -35,13 +39,19 @@ section {
 }
 aside#github {
     position: fixed;
-    right: 0px;
+    right: 64px;
     top: 0px;
     z-index: 1000;
 }
-aside#github img {
-    min-width: 64px;
-    width: 10vmin;
+aside#github img, aside#doge img {
+    width: 64px;
+}
+aside#doge {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1000;
+    cursor: pointer;
 }
 /* TITLE PAGE */
  section:nth-of-type(1) * {
