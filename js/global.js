@@ -12,10 +12,12 @@ doge.onclick = function()
     fileref.setAttribute("href", "./css/doge.css");
     fileref.setAttribute("id","dogetag");
     document.querySelector("head").appendChild(fileref);
+    doge.classList.add("invert");
   }
   else
   {
     var dogetag = document.getElementById("dogetag");
     dogetag.parentNode.removeChild(dogetag);
+    doge.classList.remove("invert");
   }
 };
