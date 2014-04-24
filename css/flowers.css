@@ -264,7 +264,7 @@ ul.none {
     text-align: justify;
 }
 /* GRID SYSTEM */
-.col-twentieth {
+ .col-twentieth {
     display: inline-block;
     width: calc(100%/20);
 }
@@ -737,4 +737,35 @@ ul.none {
 }
 .min-750 {
     min-width: 750px;
+}
+/* COLOURS */
+ .bg-red {
+    background-color:crimson;
+}
+.bg-lightred {
+    background-color:tomato;
+}
+.bg-green {
+    background-color:mediumseagreen;
+}
+.bg-lightgreen {
+    background-color:lightgreen;
+}
+.bg-blue {
+    background-color:dodgerblue;
+}
+.bg-lightblue {
+    background-color:deepskyblue;
+}
+.bg-yellow {
+    background-color:peru;
+}
+.bg-lightyellow {
+    background-color:lemonchiffon;
+}
+.bg-purple {
+    background-color:mediumvioletred;
+}
+.bg-lightpurple {
+    background-color:deeppink;
 }
