@@ -2,7 +2,7 @@
 ==
 The css framework for responsive page layouts.
 
-Pages
+Pages / Frames
 ==
 
 Flowers defines a page as an element taking up a proportion of the whole viewport.
